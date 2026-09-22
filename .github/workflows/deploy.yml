@@ -17,6 +17,37 @@ concurrency:
   group: archive-52-pages
   cancel-in-progress: false
 jobs:
+  audit-main-public-bytes:
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/codex/audit-main-v0840-b17e61d'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out reviewed fixed main Pages auditor and actual production evidence
+        uses: actions/checkout@v4
+        with:
+          path: audit-runner
+          persist-credentials: false
+      - name: Hold exact deployed main controller and catalog
+        uses: actions/checkout@v4
+        with:
+          repository: mekhovov/revealline
+          ref: b17e61d58f23c758802f54cb929ce47c25dd5416
+          path: audit-runner/audit-main/repository
+          persist-credentials: false
+          sparse-checkout: |
+            publishing/pages-controller/publication.json
+            publishing/pages-controller/catalog.json
+          sparse-checkout-cone-mode: false
+      - name: Read every actual production HTTP inventory body with hashes and MIME
+        run: python3 audit-runner/audit-main/http-tools/http_audit.py --run
+      - name: Retain complete bounded public audit and every attempt
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: main-v0840-public-http-evidence
+          if-no-files-found: error
+          path: audit-runner/audit-main/http/
   build:
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest

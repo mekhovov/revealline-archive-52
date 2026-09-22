@@ -1,0 +1,48 @@
+{
+  "format": "revealline-main-pages-http-request.v1",
+  "reviewed": false,
+  "controllerCommit": "b17e61d58f23c758802f54cb929ce47c25dd5416",
+  "controllerTree": "a0d27835d736f6a5058f372f5c17e76cc8bdcc5b",
+  "sourceCheckoutCommit": "b17e61d58f23c758802f54cb929ce47c25dd5416",
+  "runId": 35783546172,
+  "deploymentId": 6600634062,
+  "deploymentStatusId": 18697725235,
+  "receiptArtifactId": 10719371719,
+  "pins": {
+    "run": {
+      "path": "production-run-original.json",
+      "bytes": 12200,
+      "sha256": "5d9732c5345a5b3d3184ab3163e723547b9bbe1b6e9612ab418c761aea8c5705"
+    },
+    "main": {
+      "path": "production-main-original.json",
+      "bytes": 336,
+      "sha256": "d88db9ddeff9c8451aa2b8beb4c612328c7a48eda8c6e22accec86872b7cc55c"
+    },
+    "commit": {
+      "path": "production-commit-original.json",
+      "bytes": 2714,
+      "sha256": "f622de4d90516b16a2ad834d73c72643c7081deb113828379de9da306624b26b"
+    },
+    "deployment": {
+      "path": "production-deployment-original.json",
+      "bytes": 3823,
+      "sha256": "112e31a8d48081f03f450a8d272a0dc415952331fbf66c40a8e9b7840fb6702c"
+    },
+    "statuses": {
+      "path": "production-statuses-original.json",
+      "bytes": 6586,
+      "sha256": "35bed969bcc1495df7fdb2747e58a7a5271d85fb4b387ea745d9ec9dd5d92c28"
+    },
+    "artifacts": {
+      "path": "production-artifacts-original.json",
+      "bytes": 1401,
+      "sha256": "f74d2d19e5b14a9ad63f70ce05f82d00133f49385d090a6a7d1668f6ccb4b1f8"
+    },
+    "receiptZIP": {
+      "path": "production-receipts-original.zip",
+      "bytes": 177737,
+      "sha256": "5a84668f8f669e22db88d1a2ff5c2d7de2ad47d4f8f775da1c7706ffb5a6b8a9"
+    }
+  }
+}
