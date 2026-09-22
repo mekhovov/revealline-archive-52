@@ -1,0 +1,27 @@
+commit 01b189f6427601a15cbb3eb1563b5f82eabbafa3
+tree b547eda9dd8f86db17c9a79093736eefbeeb9dc9
+parent a870050ae2d7ac45d026243060cbd9a32e95ee49
+parent 83f5895943510ce98e7f5c0ff3201dc20127f325
+author Oleksandr Mekhovov <oleksandr.mekhovov@coupa.com> 1790098995 +0200
+committer GitHub <noreply@github.com> 1790098995 +0200
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ wsFcBAABCAAQBQJqsr4zCRC1aQ7uu5UhlAAAgbEQAIRR9GjODF4kBpHagm6C+qAN
+ EvtmC7jZ+t1EDNfDBVF9ZUraXPDYiVufc4Ne1xhGWpOOTz4y211RZ+GdMJD2CTHJ
+ prNaziKz6lYHNOf3r2+iLLwh3qb4TBm5ie/ZjuEUyuL6pDpnMKGt59iOWrcPVHWG
+ W9vcUpoSv9JDxFUjX6gmc94bjo9DIh+oDUEylYr4qeVUR47gTAl0nerkijTbIJkw
+ LD5MQM2tM8C39Oq6b5DpuoFiGF0wC2vBrxlpkZYU1wYuk6w6lcOgTL74ZCc9u7Jw
+ zGlB2GWoPcYOPqXf0752WvqloqKKsf8MVllDx03xmOyLT9uoyc81NSzLGPFuU78b
+ EMFBxhLOpN5irZH/PZJZ3TXRaP3/4+AU41pQjO9RW4hvdaci4M0eaZci1zQR4c1O
+ eDuJuSnBoHQr24uGS0lSyz/3x2Iw3XOPejUy/0RIV13EmM9swah/1Ms1D+UkKmpq
+ pSaEuByZbrLTrgiuadwozwQLr5i8UhMmQhsu5jqQTuV1ZT8XgSBuw6gva3Byc3KK
+ CHgxTzIw4gEblewADZL55sGnlYRHAt+c4su9g2VygBXDjT6cM3RZs+NPBICnnEA0
+ Ln9ncXDqkv5DuQ3aZKuAuuvdiK79rVpZVLZ/OskvPlJzZV3ftiSdQiI8oVPMO7rj
+ RBRkm2GEPi+j2STZa/me
+ =oH5r
+ -----END PGP SIGNATURE-----
+ 
+
+    Merge pull request #263 from mekhovov/codex/ux-default-journey
+    
+    Make the current Journey the default across all modes (v0.83.0)
